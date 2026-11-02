@@ -5,23 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Práctica 0 - Login</title>
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
 </head>
-<body>
-    <div class="container">
-        <div class="">
-            <img src="IMG/logo.webp" alt="logo Bootstrap" class="img-thumbnail img-fluid" />
+<body class="d-flex align-items-center">
+    <form class="form-signin">
+        <img src="IMG/logo.webp" alt="logo Bootstrap" class="mb-4" width="110" height="100" />
+        <h1 class="h1 mb-3">Please sign in</h1>
+        <label for="email-form">Email address</label>
+        <input type="email" class="form-control" id="email-form" />
+        <label for="pwd-form">Password</label>
+        <input type="password" class="form-control" id="pwd-form" />
+        <div class="checkbox">
+            <input type="checkbox" id="remember-check" />
+            <label for="remember-check">Remember me</label>
         </div>
-        <div class="">
-            <h1 class="h1">Please sign in</h1>
-        </div>
-        <div class="form">
-            <div class="">
-                <input type="text" />
-            </div>
-        </div>
-    </div>
+        <button class="btn btn-primary">Sign in</button>
+    </form>
     <script src="/bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
 </body>
 </html>
